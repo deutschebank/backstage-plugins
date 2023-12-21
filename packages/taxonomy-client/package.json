@@ -1,0 +1,41 @@
+{
+  "name": "@deutschebank/backstage-taxonomy-client",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "Apache-2.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts"
+  },
+  "backstage": {
+    "role": "common-library"
+  },
+  "homepage": "https://backstage.io",
+  "keywords": [
+    "backstage"
+  ],
+  "scripts": {
+    "build": "backstage-cli package build",
+    "lint": "backstage-cli package lint",
+    "test": "backstage-cli package test",
+    "diff": "backstage-cli plugin:diff",
+    "clean": "backstage-cli package clean",
+    "prepack": "backstage-cli package prepack",
+    "postpack": "backstage-cli package postpack",
+    "start": "backstage-cli package start"
+  },
+  "dependencies": {
+    "@backstage/errors": "^1.2.1",
+    "cross-fetch": "^3.1.5"
+  },
+  "devDependencies": {
+    "@backstage/cli": "^0.22.9"
+  },
+  "files": [
+    "dist",
+    "alpha"
+  ]
+}
