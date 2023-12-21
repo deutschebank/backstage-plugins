@@ -1,0 +1,6 @@
+plugins/taxonomy/dist
+plugins/taxonomy/node_modules
+plugins/taxonomy-backend/dist
+plugins/taxonomy-backend/node_modules
+packages/taxonomy-client/dist
+packages/taxonomy-client/node_modules
