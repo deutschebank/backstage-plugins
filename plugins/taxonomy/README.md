@@ -7,8 +7,6 @@
 
 Welcome to the taxonomy frontend plugin for backstage.
 
-![Taxonomy Frontend](Taxonomy.png)
-
 ## Setup
 
 Add the plugin to your frontend app:
